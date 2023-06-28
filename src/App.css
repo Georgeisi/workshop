@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ }
+
+ .bulb{
+  background-image: url('../src/assets/Light\ bulb-bro\ \(1\)\ 1.png');
+  background-size: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow-x: hidden;
+  margin: 0 auto;
+ }
+ .circle{
+  width: 100%;
+ }
+
+ 
+ .arrow{
+  width: 100vw;
+ }
+ .vid{
+  width:  100%;
+ }
+ .quote{
+  width: 100%;
+ }
+ .dgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ @media (min-width: 768px) {
+  .bulb{
+    background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
+    background-repeat: no-repeat;
+    background-position: unset;
+    width: unset;
+    
+    margin: 0 auto;
+    background-position: 20px;
+    overflow-x: hidden;
+  }
+  .circle{
+    width: unset;
+  }
+
+  
+ }
+
+ .arrow{
+  width: 200px;
+ }
+.lst{
+  list-style-type: none;
+}
+.vid{
+  width: unset;
+}
+ @media (min-width:1024px){
+  .bulb{
+    background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: unset;
+    width: unset;
+    /* width: 100%; */
+    margin: 0 auto;
+    background-position: 260px;
+    overflow-x: hidden;
+  }
+  .circle{
+    width: unset;
+  }
+  
+ .arrow{
+  width: 200px;
+ }
+
+ .vid{
+  width: unset;
+ }
+
+ .dgrid{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ }
+
+ .footer{
+  max-width: unset;
+  padding: unset;
+ }
+
+
+
