@@ -15,7 +15,7 @@ const AboutUs = () => {
               have experience you need to be among the 10% of sucessful startups
             </p>
           </div>
-          <img className="w-100" src={video} alt="" />
+          <img className="w-100 p-4" src={video} alt="" />
         </div>
         <img className="quote" src={text} alt="" />
         <div className="d-flex flex-column flex-lg-row align-items-center text-start gap-5">

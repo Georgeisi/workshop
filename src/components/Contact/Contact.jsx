@@ -3,6 +3,7 @@ import ContactInfo from "./ContactInfo";
 import ContactInput from "./ContactInput";
 import RootLayout from "../../DefaultLayout/RootLayout";
 
+
 const Contact = () => {
   return (
    <RootLayout>

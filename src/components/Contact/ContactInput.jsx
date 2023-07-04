@@ -1,8 +1,25 @@
 import React from 'react'
+import {motion,AnimatePresence} from 'framer-motion'
 
+
+
+const ContactVariant={
+  hidden:{x:'100vw'} ,
+  vissible: {
+    x:0,
+    transition:{
+      delay:0.5,
+    }
+  }
+  
+}
 const ContactInput = () => {
   return (
-    <div className='w-50 mx-auto text-start'>
+    <motion.div className='w-50 mx-auto text-start'
+    variants={ContactVariant}
+    initial='hidden'
+    animate='vissible'
+    >
        <p> Send us A Message </p>
        <form action="">
        <div >
@@ -23,7 +40,7 @@ const ContactInput = () => {
       </div>
       <button className='btn btn-dark rounded-0 w-100'>send</button>
        </form>
-    </div>
+    </motion.div>
   )
 }
 
