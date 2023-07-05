@@ -5,25 +5,28 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-dark my-5 d-flex flex-column align-items-center py-5  footer ">
+    <div className="w-100 bg-dark d-flex flex-column align-items-center py-5  footer ">
       <img className=" pb-3" src={logo} alt="" />
 
       <img src={socialIcons} alt="" />
-      <ul className="text-white d-flex pt-3  gap-3 lst">
-        <Link className="text-white" to={"/"}><li>Home</li></Link>
+      {/* < className="text-white d-flex flex-column flex-md-row mx-auto pt-3  gap-3 lst"> */}
+        <div className="links d-flex flex-column flex-md-row gap-3 py-4 text-center">
+        <Link className="text-white" to={"/"}>Home</Link>
         <Link className="text-white" to={"/about"}>
-          <li>About</li>
+          About
         </Link>
 
         <Link className="text-white" to={"/contact"}>
-          <li>Contact</li>
+          Contact
         </Link>
         <Link className="text-white" to={"/our-method"}>
-          <li>Our Method</li>
+          Our Method
         </Link>
-        <Link className="text-white" to={'/team'}><li>Team</li></Link>
-        <Link className="text-white" to={'/stories'}><li>Stories</li></Link>
-      </ul>
+        <Link className="text-white" to={'/team'}>Team</Link>
+        <Link className="text-white" to={'/stories'}>Stories</Link>
+        </div>
+        
+      
     </div>
   );
 };

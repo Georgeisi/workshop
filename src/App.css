@@ -1,24 +1,36 @@
 #root {
+
+ }
+
+ .container{
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
  }
 
- .bulb{
+ /* .bulb{
   background-image: url('../src/assets/Light\ bulb-bro\ \(1\)\ 1.png');
   background-size: 100%;
-  width: 100vw;
-  background-repeat: no-repeat;
+  /* width: 100vw; */
+  /* background-repeat: no-repeat;
   background-position: 0px;
   overflow-x: hidden;
   margin: 0 auto;
- }
+ } */ */
  .circle{
   width: 100%;
  }
+.bulb-bg{
+  background-image: url('../src/assets/Ellipse\ 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+ input, textarea{
+  background-color: white;
 
- 
+ }
  .arrow{
   width: 100vw;
  }
@@ -35,15 +47,18 @@
 
  @media (min-width: 768px) {
   .bulb{
+    width: 100%;
+  }
+  /* .bulb{
     background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
     background-repeat: no-repeat;
     background-position: unset;
-    width: unset;
+    width: unset; */
     
-    margin: 0 auto;
+    /* margin: 0 auto;
     background-position: 20px;
     overflow-x: hidden;
-  }
+  } */
   .circle{
     width: unset;
   }
@@ -68,17 +83,17 @@ a{
   width: unset;
 }
  @media (min-width:1024px){
-  .bulb{
+  /* .bulb{
     background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
     background-repeat: no-repeat;
     background-position: unset;
     background-size: unset;
     width: unset;
     /* width: 100%; */
-    margin: 0 auto;
+    /* margin: 0 auto;
     background-position: 260px;
     overflow-x: hidden;
-  }
+  } */ */
   .circle{
     width: unset;
   }
@@ -116,6 +131,10 @@ a{
  }
 
  @media (min-width:768px){
+  .bulb{
+    width: 75%;
+
+  }
   .prof-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -128,3 +147,9 @@ a{
 }
 
 
+@media (max-width: 500px) {
+  .bulb{
+    width: 100% !important;
+  }
+  
+}
