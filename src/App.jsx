@@ -14,6 +14,7 @@ import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
 // import { Charts } from "./components/Charts/Charts";
 import { AnimatePresence } from "framer-motion";
+import NavDrop from "./components/NavDrop";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Router>
+          {/* <NavDrop/> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUs />} />
@@ -29,6 +31,7 @@ function App() {
           {/* <Route path="/port" element={<Charts />} /> */}
         </Routes>
       </Router>
+    
     </>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import RootLayout from "../DefaultLayout/RootLayout";
 import circle from "../assets/Ellipse 1.png";
 import arrow from "../assets/material-symbols_arrow-forward.png";
+import NavDrop from "./NavDrop";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
             dicta ipsa
           </p>
         </div>
+        {/* <NavDrop/> */}
       </RootLayout>
     </div>
   );
