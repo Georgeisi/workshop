@@ -25,13 +25,9 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
-<<<<<<< HEAD
           {/* <Route path="/port" element={<Charts />} />
            */}
           <Route path="/our-method" element={<Method />} />
-=======
-          {/* <Route path="/port" element={<Charts />} /> */}
->>>>>>> f7b527f8c8e67337e279ce8b5f38e76598dea9d6
         </Routes>
       </Router>
     </>
