@@ -1,9 +1,8 @@
-import { useState } from "react";
+
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  useLocation,
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,10 +13,10 @@ import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
 // import { Charts } from "./components/Charts/Charts";
 // import { AnimatePresence } from "framer-motion";
-import NavDrop from "./components/NavDrop";
+// import NavDrop from "./components/NavDrop";
 
 function App() {
-  
+
 
   return (
     <>
@@ -31,7 +30,7 @@ function App() {
           {/* <Route path="/port" element={<Charts />} /> */}
         </Routes>
       </Router>
-    
+
     </>
   );
 }
