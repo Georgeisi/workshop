@@ -17,7 +17,7 @@ const Team = () => {
       transition:{
         staggerChildren: 0.5},
         y:0,
-        delay:1.5,
+        delay:15,
         duration: 5
       
       
