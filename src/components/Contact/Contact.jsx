@@ -1,6 +1,7 @@
 import ContactInfo from "./ContactInfo";
 import ContactInput from "./ContactInput";
 import RootLayout from "../../DefaultLayout/RootLayout";
+import NavDrop from "../NavDrop";
 
 
 const Contact = () => {
@@ -17,6 +18,7 @@ const Contact = () => {
       <ContactInput />
     </div>
     </div>
+    {/* <NavDrop/> */}
    </RootLayout>
   );
 };
