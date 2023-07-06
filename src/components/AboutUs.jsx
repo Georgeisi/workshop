@@ -1,4 +1,3 @@
-import React from "react";
 import video from "../assets/Frame 16.png";
 import RootLayout from "../DefaultLayout/RootLayout";
 import text from "../assets/Frame 35.png";
