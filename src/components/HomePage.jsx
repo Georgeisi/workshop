@@ -1,4 +1,3 @@
-import React from "react";
 import RootLayout from "../DefaultLayout/RootLayout";
 import circle from "../assets/Ellipse 1.png";
 import arrow from "../assets/material-symbols_arrow-forward.png";
@@ -9,6 +8,7 @@ const HomePage = () => {
       <RootLayout>
         <div className="my-3 mx-auto">
           <h2>A Venture Studio With A </h2>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <h2>'Unique' Twist</h2>
           <p>Explore the 24 apps with unique solutions and their metrics</p>
           <div className="my-5 bulb" style={{ position: "relative" }}>

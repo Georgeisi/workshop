@@ -18,16 +18,22 @@
   width: 100%;
  }
 
+ .navy{
+  box-shadow: 0px 2px 0px rgb(0,0,0,0.2);
+ }
  
  .arrow{
   width: 100vw;
  }
+
  .vid{
   width:  100%;
  }
+
  .quote{
   width: 100%;
  }
+
  .dgrid{
   display: grid;
   grid-template-columns: 1fr 1fr;

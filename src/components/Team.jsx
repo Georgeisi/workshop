@@ -1,10 +1,9 @@
-import React from "react";
 import NavBar from "./NavBar";
 import profile4 from "../assets/Property 1=Variant2 (1).png";
 import profile2 from "../assets/Property 1=Hover (1).png";
 import profile1 from "../assets/Property 1=Hover.png";
 import profile3 from "../assets/Property 1=Variant2.png";
-import {  motion, stagger } from "framer-motion";
+import {  motion } from "framer-motion";
 
 
 const Team = () => {
