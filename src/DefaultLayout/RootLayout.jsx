@@ -1,6 +1,7 @@
 
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+// import NavDrop from '../components/NavDrop'
 import Maincontainer from '../components/Maincontainer'
 
 
@@ -11,6 +12,7 @@ const RootLayout = ({children}) => {
         <NavBar/>
         <Maincontainer>{children}</Maincontainer>
         <Footer/>
+        {/* <NavDrop/> */}
 
     </div>
   )
