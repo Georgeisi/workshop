@@ -12,7 +12,7 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
-import { Charts } from "./components/Charts/Charts";
+// import { Charts } from "./components/Charts/Charts";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
