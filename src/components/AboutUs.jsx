@@ -2,7 +2,7 @@ import video from "../assets/Frame 16.png";
 import RootLayout from "../DefaultLayout/RootLayout";
 import text from "../assets/Frame 35.png";
 import three from "../assets//Frame 21.png";
-import NavDrop from "./NavDrop";
+
 const AboutUs = () => {
   return (
     <RootLayout>

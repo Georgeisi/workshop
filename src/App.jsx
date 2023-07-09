@@ -4,19 +4,12 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
-<<<<<<< HEAD
 import OurMethod from "./components/OurMethod";
-=======
-// import { Charts } from "./components/Charts/Charts";
-// import { AnimatePresence } from "framer-motion";
-import NavDrop from "./components/NavDrop";
 
->>>>>>> 31114498cf5bf9c8d443ea6489086e308923a43f
 function App() {
   return (
     <>
       <Router>
-          {/* <NavDrop/> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUs />} />
