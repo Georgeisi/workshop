@@ -1,6 +1,10 @@
-/* #root {
-
- } */
+* {
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 .container {
   max-width: 1280px;
@@ -19,7 +23,7 @@
   background-color: rgb(255, 255, 255, 0.8);
 }
 
-.comp50{
+.comp50 {
   width: 100%;
 }
 
@@ -63,31 +67,16 @@ textarea {
   grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 768px) {
-  .modalBox {
-    width: 350px;
-    height: 300px;
-    margin-top: 10px;
-  }
-
-
-
-  .bulb {
-    width: 100%;
-  }
-  /* .bulb{
-    background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
-    background-repeat: no-repeat;
-    background-position: unset;
-    width: unset; */
-
-  /* margin: 0 auto;
-    background-position: 20px;
-    overflow-x: hidden;
-  } */
-  .circle {
-    width: unset;
-  }
+.prof-grid {
+  display: grid;
+  grid-template-columns: 1fr !important;
+}
+.grid-proof {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
 }
 
 .arrow {
@@ -105,6 +94,11 @@ a {
 }
 .vid {
   width: unset;
+}
+@media (min-width: 700px) {
+  .grid-proof {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 @media (min-width: 1024px) {
   /* .bulb{
@@ -133,6 +127,10 @@ a {
   .dgrid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .grid-proof {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .footer {
@@ -141,36 +139,25 @@ a {
   /* width: 100vw !important; */
   /* margin-right: 100px !important; */
   max-width: unset !important;
- }
- .prof{
-  background-color: #D9D9D9;
+}
+.prof {
+  background-color: #d9d9d9;
+  width: 21vw;
   border-radius: 8px;
-  
-  ;
- }
- .prof-grid{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column!important ;
- }
- @media (min-width: 500px) {
-  .prof-grid{
-    flex-direction: row!important;
-    flex-wrap: wrap !important;
-  }
- }
+  margin: 20px auto;
+}
+.prof-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 @media (min-width: 962px) {
   .bulb {
     width: 75%;
-  
   }
-
- 
- }
-.navy{
-  box-shadow: 0px 2px #D9D9D9 !important;
+}
+.navy {
+  box-shadow: 0px 2px #d9d9d9 !important;
   /* position: fixed; */
   height: 5rem !important;
   /* background-color: aquamarine !important; */
@@ -179,6 +166,31 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+@media (min-width: 800px) {
+  .modalBox {
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .bulb {
+    width: 100%;
+  }
+  /* .bulb{
+    background-image:url('../src//assets/Light\ bulb-bro\ \(1\)\ 1.png') ;
+    background-repeat: no-repeat;
+    background-position: unset;
+    width: unset; */
+
+  /* margin: 0 auto;
+    background-position: 20px;
+    overflow-x: hidden;
+  } */
+  .circle {
+    width: unset;
+  }
 }
 
 @media (max-width: 500px) {

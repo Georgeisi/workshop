@@ -3,7 +3,7 @@ import profile4 from "../assets/Property 1=Variant2 (1).png";
 import profile2 from "../assets/Property 1=Hover (1).png";
 import profile1 from "../assets/Property 1=Hover.png";
 import profile3 from "../assets/Property 1=Variant2.png";
-import {  motion } from "framer-motion";
+import {  motion, } from "framer-motion";
 
 
 const Team = () => {
@@ -38,7 +38,7 @@ const Team = () => {
         animate='visible'
       >
         <h2 className="text-center py-4">MEET OUR TEAM</h2>
-        <div className="prof-grid d-flex flex-sm-column flex-md-row gap-5 mx-auto">
+        <div className="grid-proof">
           <motion.div
               variants={item}
           >
