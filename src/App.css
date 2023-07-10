@@ -133,7 +133,7 @@ a{
  @media (min-width: 500px) {
   .prof-grid{
     flex-direction: row!important;
-    flex-wrap: wrap !important;
+    /* flex-wrap: wrap !important; */
   }
  }
 
