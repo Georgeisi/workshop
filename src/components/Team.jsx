@@ -38,7 +38,7 @@ const Team = () => {
         animate='visible'
       >
         <h2 className="text-center py-4">MEET OUR TEAM</h2>
-        <div className="prof-grid d-flex flex-sm-column flex-md-row gap-5 mx-auto">
+        <div className="grid-proof">
           <motion.div
               variants={item}
           >
