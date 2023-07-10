@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import logo from '../assets/Group 45.png'
 import NavDrop from './NavDrop'
-import  dropdown from '../assets/arrow-square-down.png'
+// import  dropdown from '../assets/arrow-square-down.png'
 
 
 const NavBar = () => {
