@@ -21,7 +21,7 @@ const NavBar = () => {
           <div style={{ width: "250px", height: "4.5rem" }}>
             <Image
               className="w-100 h-100"
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "fill" }}
               src={logo}
             />
           </div>
