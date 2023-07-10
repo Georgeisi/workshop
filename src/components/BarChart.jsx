@@ -7,10 +7,11 @@ ChartJS.register(Legend);
 const BarChart = ({ chartData }) => {
   return (
     <Bar
-    width="400" height="450"
+    width="100%"
+     height="80"
       data={chartData}
       options={{
-        responsive: true,
+        
         plugins: {
           legend: {
             display: false,

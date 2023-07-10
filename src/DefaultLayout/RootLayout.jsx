@@ -8,9 +8,8 @@ const RootLayout = ({children}) => {
   return (
     <div>
         <NavBar/>
-        <div style={{marginTop:"6.5rem"}}>
+        <div style={{marginTop:"6.5rem", marginBottom:"100px"}}>
         <Maincontainer>{children}</Maincontainer>
-
         </div>
         <Footer/>
         {/* <NavDrop/> */}
