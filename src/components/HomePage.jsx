@@ -9,7 +9,7 @@ const HomePage = () => {
     <div>
       <RootLayout>
         <div className="my-3 mx-auto container">
-          <h2>A Venture Studio With A </h2>
+          <h2>A Studio With A </h2>
           <h2 >'Unique' Twist</h2>
           <p className="w-75 mx-auto py-2">Explore the 24 apps with unique solutions and their metrics</p>
           {/* <div className="my-5 bulb" style={{ position: "relative" }}> */}
