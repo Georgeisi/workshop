@@ -23,6 +23,10 @@
   background-color: rgb(255, 255, 255, 0.8);
 }
 
+.comp50{
+  width: 100%;
+}
+
 /* .bulb{
   background-image: url('../src/assets/Light\ bulb-bro\ \(1\)\ 1.png');
   background-size: 100%;
@@ -69,6 +73,8 @@ textarea {
     height: 300px;
     margin-top: 10px;
   }
+
+
 
   .bulb {
     width: 100%;
@@ -151,12 +157,16 @@ a {
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 962px) {
   .bulb {
     width: 75%;
   }
   .prof-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .comp50{
+    width: 24%;
   }
 }
 
