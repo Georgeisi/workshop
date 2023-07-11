@@ -22,7 +22,7 @@ const NavDrop = ({ setShow }) => {
         height: "calc(100vh - 6.5rem)",
         width: "100%",
         background: "rgb(0,0,0,0.4)",
-        zIndex:"10"
+        zIndex: "10",
       }}
     >
       <div className="w-100 h-100 d-flex justify-content-center">
@@ -32,7 +32,7 @@ const NavDrop = ({ setShow }) => {
             initial="hidden"
             animate="vissible"
             exit={{ y: "-100vh", transition: 0.5, delay: 0.25 }}
-            className="d-flex justify-content-center position-relative py-5 modalBox"
+            className="d-flex flex-column justify-content-center align-items-center position-relative py-5 py-lg-2 modalBox"
           >
             <div
               className="position-absolute d-flex justify-content-center align-items-center cursor"
@@ -48,27 +48,24 @@ const NavDrop = ({ setShow }) => {
             >
               <TbLetterX />
             </div>
-
-            <ul className="d-flex flex-column gap-3 text-center text-white">
-              <Link to={"/"}>
-                <li className="text-dark">Home</li>
-              </Link>
-              <Link to="/about">
-                <li className="text-dark">About</li>
-              </Link>
-              <Link to="/our-method">
-                <li className="text-dark">Our Method</li>
-              </Link>
-              <Link to="/contact">
-                <li className="text-dark">Contact</li>
-              </Link>
-              <Link to="/team">
-                <li className="text-dark">Team</li>
-              </Link>
-              <Link to="/stories">
-                <li className="text-dark">Stories</li>
-              </Link>
-            </ul>
+            <Link to="/">
+              <p className="text-dark">Home</p>
+            </Link>
+            <Link to="/about">
+              <p className="text-dark">About</p>
+            </Link>
+            <Link to="/our-method">
+              <p className="text-dark">Our Method</p>
+            </Link>
+            <Link to="/contact">
+              <p className="text-dark">Contact</p>
+            </Link>
+            <Link to="/team">
+              <p className="text-dark">Team</p>
+            </Link>
+            <Link to="/stories">
+              <p className="text-dark">Stories</p>
+            </Link>
           </motion.div>
         </AnimatePresence>
       </div>
@@ -81,12 +78,12 @@ const NavDrop = ({ setShow }) => {
           className="w-50 mx-auto mt-5 bg-white py-5 d-flex flex-column gap-3 rounded-2"
         >
           <ul className="d-flex flex-column gap-3 text-center text-white">
-            <Link className=" text-decoration-none" to={'/'}><li className="text-decoration-none">Home</li></Link>
-            <Link to={'/about'}><li>About</li></Link>
-            <Link to={'/our-method'}><li>Our Method</li></Link>
-            <Link to={'/contact'}><li>Contact</li></Link>
-            <Link to={'/team'}><li>Team</li></Link>
-            <Link to={'/stories'}><li>Stories</li></Link>
+            <Link className=" text-decoration-none" to={'/'}><p className="text-decoration-none">Home</p></Link>
+            <Link to={'/about'}><p>About</p></Link>
+            <Link to={'/our-method'}><p>Our Method</p></Link>
+            <Link to={'/contact'}><p>Contact</p></Link>
+            <Link to={'/team'}><p>Team</p></Link>
+            <Link to={'/stories'}><p>Stories</p></Link>
           </ul>
         </motion.div>
       </AnimatePresence> */}
