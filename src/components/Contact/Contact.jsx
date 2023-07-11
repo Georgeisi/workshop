@@ -1,4 +1,3 @@
-import React from "react";
 import ContactInfo from "./ContactInfo";
 import ContactInput from "./ContactInput";
 import RootLayout from "../../DefaultLayout/RootLayout";
@@ -18,6 +17,7 @@ const Contact = () => {
       <ContactInput />
     </div>
     </div>
+    {/* <NavDrop/> */}
    </RootLayout>
   );
 };
