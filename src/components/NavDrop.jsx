@@ -22,6 +22,7 @@ const NavDrop = ({ setShow }) => {
         height: "calc(100vh - 6.5rem)",
         width: "100%",
         background: "rgb(0,0,0,0.4)",
+        zIndex:"10"
       }}
     >
       <div className="w-100 h-100 d-flex justify-content-center">
@@ -30,7 +31,7 @@ const NavDrop = ({ setShow }) => {
             variants={DropVariant}
             initial="hidden"
             animate="vissible"
-            exit={{ y: "-100vw", transition: 0.5, delay: 0.25 }}
+            exit={{ y: "-100vh", transition: 0.5, delay: 0.25 }}
             className="d-flex justify-content-center position-relative py-5 modalBox"
           >
             <div

@@ -8,10 +8,10 @@ const BarChart = ({ chartData }) => {
   return (
     <Bar
     width="100%"
-     height="80"
+     height="70"
       data={chartData}
       options={{
-        
+        responsive: true,
         plugins: {
           legend: {
             display: false,
@@ -19,13 +19,14 @@ const BarChart = ({ chartData }) => {
         },
         scales: {
           x: {
+            display: false,
             // border: {
             //   color: 'red'
             // },
             title: {
-              color: "red",
-              display: true,
-              text: "Month",
+              // color: "red",
+              // display: true,
+              // text: "Month",
             },
           },
           y: {

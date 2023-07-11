@@ -23,8 +23,14 @@
   background-color: rgb(255, 255, 255, 0.8);
 }
 
-.comp50{
+.comp50 {
   width: 100%;
+}
+
+.methodNum {
+  top: -6%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* .bulb{
@@ -74,7 +80,9 @@ textarea {
     margin-top: 10px;
   }
 
-
+  .methodNum {
+    top: -4%;
+  }
 
   .bulb {
     width: 100%;
@@ -157,7 +165,7 @@ a {
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 962px) {
+@media (min-width: 992px) {
   .bulb {
     width: 75%;
   }
@@ -165,8 +173,14 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .comp50{
+  .comp50 {
     width: 24%;
+  }
+
+  .methodNum {
+    top: 13% !important;
+    left: -5%;
+    transform: translateX(0%);
   }
 }
 
