@@ -18,7 +18,6 @@ function App() {
           <Route path="/our-method" element={<OurMethod />} />
         </Routes>
       </Router>
-    
     </>
   );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Image } from "react-bootstrap";
 import RootLayout from "../DefaultLayout/RootLayout";
 import { Companies } from "../utils/Data";
 import BarChart from "./BarChart";
@@ -8,14 +9,8 @@ const OurMethod = () => {
   const [sort, setSort] = useState("def");
   console.log(Companies);
 
-  const descending = [...Companies];
-  const ascending = [...Companies];
-
-  const descend = descending.sort((a, b) => b.PorL - a.PorL);
-  const ascend = ascending.sort((a, b) => a.PorL - b.PorL);
-
-  console.log(descend, "down");
-  console.log(ascend, "up");
+  const descend = Companies.slice(0).sort((a, b) => b.PorL - a.PorL);
+  const ascend = Companies.slice(0).sort((a, b) => a.PorL - b.PorL);
 
   return (
     <RootLayout>
@@ -76,7 +71,7 @@ const OurMethod = () => {
               style={{ width: "200px", height: "50px", borderRadius: "5px" }}
             >
               <div>
-              <p className="mb-0 ">Sort:</p>
+                <p className="mb-0 ">Sort:</p>
               </div>
               <select
                 onChange={(e) => setSort(e.target.value)}
@@ -111,7 +106,7 @@ const OurMethod = () => {
           {(sort === "def" ? Companies : sort === "asc" ? ascend : descend).map(
             (each, index) => (
               <div
-                key={each.id}
+                key={index}
                 className="position-relative d-flex flex-column gap-4 flex-lg-row justify-content-between w-100"
               >
                 <div className="position-absolute methodNum d-flex gap-1 align-items-center">
@@ -140,7 +135,13 @@ const OurMethod = () => {
                   }}
                 >
                   <div className="d-flex gap-4 mb-4">
-                    <p>{each.product.logo}</p>
+                    <div style={{ width: "100px", height: "100px" }}>
+                      <Image
+                        src={each.product.logo}
+                        className="w-100 h-100"
+                        style={{ objectFit: "cover" }}
+                      />
+                    </div>
                     <h3>{each.product.name}</h3>
                   </div>
                   <p>{each.product.about}</p>

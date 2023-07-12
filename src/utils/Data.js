@@ -444,9 +444,9 @@ const CompaniesChart = [
 export const Companies = [
   {
     id: 1,
-    PorL: 3,
+    PorL: 1,
     product: {
-      logo: "GG",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_29_jkjffw.webp",
       name: "Gritty Grammer",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -476,9 +476,9 @@ export const Companies = [
   },
   {
     id: 2,
-    PorL: 5,
+    PorL: -2,
     product: {
-      logo: "Cl",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071466/group%20project/Frame_31_occg6i.webp",
       name: "Coverly",
       about:
         "It is an AI application that gets necessary informations from a CV and generates a Cover letter",
@@ -508,9 +508,9 @@ export const Companies = [
   },
   {
     id: 3,
-    PorL: -2,
+    PorL: 4,
     product: {
-      logo: "SB",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_34_taqia9.webp",
       name: "Soberpal",
       about:
         "A to-do list where users can assign tasks to a Virtual Assistant or receive a phone call if they fail to finish a task",
@@ -540,9 +540,9 @@ export const Companies = [
   },
   {
     id: 4,
-    PorL: 2,
+    PorL: -3,
     product: {
-      logo: "KD",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_32_nkvexl.webp",
       name: "Kitchen Diary",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -572,9 +572,9 @@ export const Companies = [
   },
   {
     id: 5,
-    PorL: -5,
+    PorL: 3,
     product: {
-      logo: "SR",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_33_vrl8l2.webp",
       name: "StreetRate",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -604,9 +604,9 @@ export const Companies = [
   },
   {
     id: 6,
-    PorL: 1,
+    PorL: -1,
     product: {
-      logo: "VA",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_36_snlg1x.webp",
       name: "V-Arena",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -638,14 +638,13 @@ export const Companies = [
     id: 7,
     PorL: -2,
     product: {
-      logo: "DP",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_44_y47fug.webp",
       name: "Discripto",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
     },
     financials: {
       customers: "740,000",
-      revenue: 800000,
       siteChart: {
         labels: CompaniesChart[6]?.map((each) => each.month),
         datasets: [
@@ -668,9 +667,9 @@ export const Companies = [
   },
   {
     id: 8,
-    PorL: 4,
+    PorL: 2,
     product: {
-      logo: "MBW",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_37_bbk67w.webp",
       name: "Magic Book Writer",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -700,9 +699,9 @@ export const Companies = [
   },
   {
     id: 9,
-    PorL: 3,
+    PorL: 5,
     product: {
-      logo: "AFM",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_61_vrejuu.webp",
       name: "Apply For Me",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -732,9 +731,9 @@ export const Companies = [
   },
   {
     id: 10,
-    PorL: 4,
+    PorL: -4,
     product: {
-      logo: "FIxit",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_62_fsb98c.webp",
       name: "Fixit",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -766,7 +765,7 @@ export const Companies = [
     id: 11,
     PorL: -2,
     product: {
-      logo: "VC",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689072506/group%20project/Frame_31_3_uqtsqm.webp",
       name: "Voxclips",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -798,7 +797,7 @@ export const Companies = [
     id: 12,
     PorL: -3,
     product: {
-      logo: "DV",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_63_dckqoe.webp",
       name: "Devask",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -828,9 +827,9 @@ export const Companies = [
   },
   {
     id: 13,
-    PorL: -4,
+    PorL: 3,
     product: {
-      logo: "CU",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_60_odhc8i.webp",
       name: "CatchUp",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -860,9 +859,9 @@ export const Companies = [
   },
   {
     id: 14,
-    PorL: 2,
+    PorL: 4,
     product: {
-      logo: "CG",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_61_1_tgayj5.webp",
       name: "Certgo",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -892,9 +891,9 @@ export const Companies = [
   },
   {
     id: 15,
-    PorL: 1,
+    PorL: 2,
     product: {
-      logo: "LM",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_60_1_ikrxfy.webp",
       name: "Lovemee",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -924,9 +923,9 @@ export const Companies = [
   },
   {
     id: 16,
-    PorL: 1,
+    PorL: 5,
     product: {
-      logo: "OP",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_31_1_hi1pzn.webp",
       name: "Opspad",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -956,9 +955,9 @@ export const Companies = [
   },
   {
     id: 17,
-    PorL: -1,
+    PorL: -2,
     product: {
-      logo: "RA",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_64_okggko.webp",
       name: "ReconcileAI",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -988,9 +987,9 @@ export const Companies = [
   },
   {
     id: 18,
-    PorL: -1,
+    PorL: -3,
     product: {
-      logo: "TW",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071465/group%20project/Frame_66_ixtqn6.webp",
       name: "Tropicalweather",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -1022,7 +1021,7 @@ export const Companies = [
     id: 19,
     PorL: 1,
     product: {
-      logo: "HD",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689071464/group%20project/Frame_31_2_gmpepo.webp",
       name: "Heed",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
@@ -1052,9 +1051,9 @@ export const Companies = [
   },
   {
     id: 20,
-    PorL: 3,
+    PorL: 2,
     product: {
-      logo: "AP",
+      logo: "https://res.cloudinary.com/dkqst1m3j/image/upload/v1689072977/group%20project/AOPolaSYIvTrgKFP_GYCt9wGKhBdX32Z41xmVDrrntzCYQ_s900-c-k-c0x00ffffff-no-rj_gjbzd2.webp",
       name: "Apple",
       about:
         "An application that revises grammar problems through discussions with a chat bot that uses AI to transcribe user input",
