@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RootLayout from "../DefaultLayout/RootLayout";
 import bulb from "../assets/Light bulb-bro (1) 1.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -21,10 +22,12 @@ const HomePage = () => {
           </div>
           .
           <div className="d-flex justify-content-center mb-4">
-            <div className="bg-dark py-2 px-4 d-flex gap-2 align-items-center">
-              <p className="text-white mb-0">Our Portfolio</p>
-              <AiOutlineArrowRight color="white" size="1.3rem" />
-            </div>
+            <Link to="/stories">
+              <div className="bg-dark py-2 px-4 d-flex gap-2 align-items-center">
+                <p className="text-white mb-0">Our Portfolio</p>
+                <AiOutlineArrowRight color="white" size="1.3rem" />
+              </div>
+            </Link>
           </div>
           <p className="w-50 mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
