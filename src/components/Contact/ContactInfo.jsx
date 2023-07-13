@@ -1,4 +1,3 @@
-import React from 'react'
 import socials from '../Contact/img/Frame 80.png'
 import {motion} from 'framer-motion'
 

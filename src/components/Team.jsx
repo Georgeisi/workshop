@@ -1,10 +1,9 @@
-import React from "react";
 import NavBar from "./NavBar";
 import profile4 from "../assets/Property 1=Variant2 (1).png";
 import profile2 from "../assets/Property 1=Hover (1).png";
 import profile1 from "../assets/Property 1=Hover.png";
 import profile3 from "../assets/Property 1=Variant2.png";
-import {  motion, stagger } from "framer-motion";
+import {  motion, } from "framer-motion";
 
 
 const Team = () => {
@@ -38,38 +37,38 @@ const Team = () => {
         initial='hidden'
         animate='visible'
       >
-        <h2>MEET OUR TEAM</h2>
-        <div className="prof-grid">
+        <h2 className="text-center py-4">MEET OUR TEAM</h2>
+        <div className="grid-proof">
           <motion.div
               variants={item}
           >
-            <img src={profile1} alt="" />
-            <div className="prof">
-              <h4>Gritty Grammar</h4>
-              <p>Investor</p>
+            <img className="w-100" src={profile1} alt="" />
+            <div className="prof w-100 py-1 mt-3 mx-auto">
+              <h4 className="text-center ">Gritty Grammar</h4>
+              <p className="text-center ">Investor</p>
             </div>
           </motion.div>
           <motion.div
               variants={item}
           >
-            <img src={profile2} alt="" />
-            <div className="prof">
-              <h4>Peter Grifin</h4>
-              <p>Photographer</p>
+            <img className="w-100" src={profile2} alt="" />
+            <div className="prof w-100 py-1 mt-3 mx-auto">
+              <h4 className="text-center ">Peter Grifin</h4>
+              <p className="text-center ">Photographer</p>
             </div>
           </motion.div>
           <motion.div variants={item}>
-            <img src={profile3} alt="" />
-            <div className="prof">
-              <h4>Sarah Sobowale</h4>
-              <p>Product Manager</p>
+            <img className="w-100" src={profile3} alt="" />
+            <div className="prof w-100 py-1 mt-3 mx-auto">
+              <h4 className="text-center ">Sarah Sobowale</h4>
+              <p className="text-center ">Product Manager</p>
             </div>
           </motion.div>
           <motion.div variants={item}>
-            <img src={profile4} alt="" />
-            <div className="prof">
-              <h4>Stephen Essien</h4>
-              <p>Developer</p>
+            <img className="w-100" src={profile4} alt="" />
+            <div className="prof w-100 py-1 mt-3  mx-auto">
+              <h4 className="text-center ">Stephen Essien</h4>
+              <p className="text-center ">Developer</p>
             </div>
           </motion.div>
         </div>
