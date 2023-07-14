@@ -5,6 +5,8 @@ import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
 import OurMethod from "./components/OurMethod";
+// import { Charts } from "./components/Charts/Charts";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
