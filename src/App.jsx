@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import OurMethod from "./components/OurMethod";
 // import { Charts } from "./components/Charts/Charts";
 import { AnimatePresence } from "framer-motion";
+import Stories from "./components/Stories";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
           <Route path="/our-method" element={<OurMethod />} />
+          <Route path="/stories" element={<Stories />} />
         </Routes>
       </Router>
     
