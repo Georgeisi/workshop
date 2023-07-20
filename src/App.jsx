@@ -5,7 +5,7 @@ import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team";
 import OurMethod from "./components/OurMethod";
-// import { Charts } from "./components/Charts/Charts";
+import Stories from "./components/Stories";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
           <Route path="/stories" element={<OurMethod />} />
+          <Route path="/our-method" element={<Stories />} />
         </Routes>
       </Router>
     </>
